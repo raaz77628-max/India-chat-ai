@@ -1,0 +1,44 @@
+body{
+  margin:0;
+  font-family:Arial;
+  background:#0f172a;
+  color:white;
+}
+.app{
+  display:flex;
+  height:100vh;
+}
+.sidebar{
+  width:220px;
+  background:#020617;
+  padding:20px;
+}
+.chat-area{
+  flex:1;
+  display:flex;
+  flex-direction:column;
+}
+#chatBox{
+  flex:1;
+  padding:20px;
+  overflow-y:auto;
+}
+.input-area{
+  display:flex;
+  padding:10px;
+  background:#020617;
+}
+input{
+  flex:1;
+  padding:10px;
+  border:none;
+  border-radius:8px;
+}
+button{
+  margin-left:10px;
+  padding:10px 20px;
+  background:#22c55e;
+  border:none;
+  border-radius:8px;
+  color:white;
+}

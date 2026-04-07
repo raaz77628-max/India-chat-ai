@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AI Builder</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+  <div class="sidebar">
+    <h2>AI Builder</h2>
+    <button onclick="startVoice()">🎤 Voice</button>
+    <input type="file" id="imageInput">
+  </div>
+  <div class="chat-area">
+    <div id="chatBox"></div>
+    <div class="input-area">
+      <input id="userInput" placeholder="Ask anything..." />
+      <button onclick="sendMessage()">Send</button>
+    </div>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
